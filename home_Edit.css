@@ -113,6 +113,7 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 800;
 }
+
 .body-container-1{
     height: 50ch;
     /* background:#CD6B54; */
@@ -133,13 +134,51 @@ body{
     object-fit: cover;
 }
 
-
-#pacman{
-    width: 20ch;
+.show-container{
     height: 20ch;
+    background:#8b4b4b;
 
-    margin-top: -10px;
+    display: flex;
 }
+.show-container > *{
+    width: 13ch;
+    text-align: center;
+
+    flex: 1 1 100%;
+}
+.show-container-item{
+    height: 20ch;
+    width: 20ch;
+
+    background: #821273;
+    border: solid;
+    
+}
+.show-container-item-image{
+    height: 20ch;
+    width: 100%;
+
+    background: red;
+    object-fit: cover;
+}
+.digital{
+    height: 20ch;
+    width: 100%;
+
+    object-fit: cover;
+}
+.digital:hover{
+    height: 25ch;
+    
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
 
 /* Animation Modification */
 @keyframes enlarge {
@@ -147,6 +186,10 @@ body{
     to{} /*Ending point*/
     
 }
+
+
+
+
 
 /* Footer Modification */
 footer{
