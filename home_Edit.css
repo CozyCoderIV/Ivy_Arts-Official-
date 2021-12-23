@@ -41,10 +41,16 @@
 }
 .welcome-banner:hover{
     box-shadow: 0 10px 20px rgb(46, 45, 45), 0 6px 6px rgba(228, 133, 10, 0.945);
+    background: linear-gradient(to left,black, rgb(43, 41, 41), rgba(154, 14, 167, 0.795) );
     color: #ffb835;
 }
 p{
     color: #D99A27;
+    transition: all 0.5s ease;
+}
+p:hover{
+    background: #ffffff11;
+    color: #f0ac2e;
 }
 header{
     /* background: linear-gradient(to right, black, #CD6B54, #C7536B); */
@@ -107,7 +113,9 @@ body{
 }
 #home-tab{
     justify-content: center;
-    
+    transition: all 0.5s ease;
+
+    animation: enlarge 1s ease 2s infinite alternate;
 }
 .nav-div-item{
     font-family: 'Nanum Gothic', sans-serif;
@@ -244,9 +252,11 @@ body{
 
 /* Animation Modification */
 @keyframes enlarge {
-    from{} /* Starting Point*/
-    to{} /*Ending point*/
+    from{  color: #5e0d53; background: linear-gradient(to bottom, #881c7a, #cf9a38);} /* Starting Point*/
+    to{ color: #1c38b6; background: linear-gradient(to bottom, #821273, #D99A27);} /*Ending point*/
     
+
+
 }
 
 

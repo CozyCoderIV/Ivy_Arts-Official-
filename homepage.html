@@ -11,7 +11,8 @@
                 <!-- <div id="streak">Streak</div> -->
             </div>
                 <h3 class="welcome-banner"><i>Welcome to the Garden</i></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptatem praesentium nihil fugit inventore dignissimos, expedita maiores quo, eius optio sunt accusamus? Est distinctio officia illo, totam nostrum sit odit! Itaque esse in modi? Commodi iusto omnis corrupti quaerat dignissimos!</p>
+                    <p>What you are hereby witnessing is a pure masterclass of creativity, hardwork, and artistry fused into one complete entity. Ivy Arts will be a constant growing platform that will change with time as its' only creator (Otis Jackson IV) improves his skills. In simpler terms, Ivy Arts will be a living visual diary of all the upcoming projects and commissions coming in the nearby future.</p>
+                    <p></p>
             <hr/>
             <div class="nav-container">
                 <div class="nav-div" id="home-tab">
@@ -48,11 +49,48 @@
                 </div>
             </div>
 
-        </body>
+        <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
     </main>
 
-    <h3 class="welcome-banner">Showcase</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident non, facilis dicta rerum corrupti sequi!</p>
+    <h3 class="welcome-banner">Prized Spectacles</h3>
+        <p>These pieces of digital artwork are considered to be the "Cream of The Crop" during my very first year (2020-2021) of being an Digital Artist. </p>
             <hr/>
             <div class="show-container">
                 <div class="show-container-item">
@@ -81,7 +119,7 @@
             </div><br><br><br><br><br><br><br><br><br>
     
     <footer>
-        <h3 class="welcome-banner">Keep In Touch</h3><hr/>
+        <h3 class="welcome-banner">Call Me Later Maybe?</h3><hr/>
 
             <div class="footer-container">
 
@@ -89,7 +127,7 @@
 
                     <div class="thank_container">
                         <div class="thank-box">
-                            <div class="thank-text">Thank You !!!</div>
+                            <div class="thank-text">!!! Thank You !!!</div>
                         </div>
                         <div></div>
                     </div>
@@ -105,7 +143,7 @@
                         </tr>
                         <tr>
                             <td><b><i>Instagram :</i></b></td>
-                            <td><b><i>spiritedshinobi</i></b></td>
+                            <td><a href="https://www.instagram.com/spiritedshinobi/" target="_blank"></a><b><i>spiritedshinobi</i></b></td>
                         </tr>
                         <tr>
                             <td><b><i>YouTube :</i></b></td>
@@ -115,10 +153,9 @@
 
                     <dl>
                         <dt><h4><b><i>Yours Sincerely,</i></b></h4>
-                            <dd>Otis Jackson IV</dd>
-                            <dd>Soullesslime_884</dd>
+                            <dd><b><i>Otis Jackson IV</i></b></dd>
+                            <dd><b><i>SoullessLime884</i></b></dd>
                         </dt>
-                        
                     </dl>
                 </div>
 
