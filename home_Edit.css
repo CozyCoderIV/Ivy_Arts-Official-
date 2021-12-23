@@ -191,6 +191,7 @@ body{
     font-weight: 600;
 }
 .text-box{
+    margin-top: -13px;
     height: 44ch;
     width: 100%;
 
