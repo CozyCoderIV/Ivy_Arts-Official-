@@ -34,6 +34,7 @@
     font-family: 'Nanum Gothic', sans-serif;
     border: solid;
     border-color: #D3833D;
+    /* border-color: whitesmoke; */
     border-width: 1px;
 
     transition: all 0.5s ease-in;
@@ -42,7 +43,7 @@
 .welcome-banner:hover{
     box-shadow: 0 10px 20px rgb(46, 45, 45), 0 6px 6px rgba(228, 133, 10, 0.945);
     background: linear-gradient(to left,black, rgb(43, 41, 41), rgba(154, 14, 167, 0.795) );
-    color: #ffb835;
+    color: #f7c15d;
 }
 p{
     color: #D99A27;
