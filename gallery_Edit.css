@@ -121,7 +121,8 @@ body{
     width: 100%;
 
     margin-top: 3ch;
-    background: linear-gradient(to right, black, ) ;
+    background: linear-gradient(to right, black, rgb(88, 9, 55));
+
 }
 .gallery_item{
     height: 90%;
@@ -129,6 +130,10 @@ body{
 
     background: #D99A27;
     border: whitesmoke solid;
+}
+img{
+    height: 100%;
+    width: 100%;
 }
 
 /* Animation Modifications */
