@@ -98,13 +98,22 @@ p:hover{
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 800;
 }
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
 
 /* Body Content Modifications */
 body{
     background: rgb(22, 21, 21);
     /* background: linear-gradient(to top, black, #CD6B54, #C7536B, #BB2498); */
+    animation: alter 3.0s linear 0s infinite;
 }
 
 /* Animation Modifications */
+@keyframes alter{
+    from { background: #1b1813;}
+    to {background: #200909;}
+}
 
 /* Footer Modifications */

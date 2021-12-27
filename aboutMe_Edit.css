@@ -103,8 +103,12 @@ p:hover{
 body{
     background: rgb(22, 21, 21);
     /* background: linear-gradient(to top, black, #CD6B54, #C7536B, #BB2498); */
+    
 }
 
 /* Animation Modifications */
-
+@keyframes alter{
+    from { background: #2c271e;}
+    to {background: #200909;}
+}
 /* Footer Modifications */

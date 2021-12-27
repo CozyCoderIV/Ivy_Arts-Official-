@@ -72,6 +72,8 @@ main{
 body{
     background: rgb(22, 21, 21);
     /* background: linear-gradient(to top, black, #CD6B54, #C7536B, #BB2498); */
+
+    animation: alter 3.0s linear 0s infinite;
 }
 .nav-container{
     background: rgb(19, 18, 18);
@@ -256,9 +258,12 @@ body{
 @keyframes enlarge {
     from{  color: #5e0d53; background: linear-gradient(to bottom, #881c7a, #cf9a38);} /* Starting Point*/
     to{ color: #1c38b6; background: linear-gradient(to bottom, #821273, #D99A27);} /*Ending point*/
-    
 
+}
 
+@keyframes alter{
+    from { background: #1b1813;}
+    to {background: #200909;}
 }
 
 

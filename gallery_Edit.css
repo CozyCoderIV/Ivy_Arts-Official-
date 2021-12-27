@@ -103,12 +103,38 @@ a{
     text-decoration: none;
 }
 
+/* Main Content Modifications */
+main{
+    background: linear-gradient(to top right, black, black, rgb(66, 15, 44), rgb(139, 22, 71));
+}
+
 /* Body Content Modifications */
 body{
     background: rgb(22, 21, 21);
     /* background: linear-gradient(to top, black, #CD6B54, #C7536B, #BB2498); */
+    animation: alter 3.0s linear infinite;
+}
+.gallery_container{
+    display: flex;
+
+    height: 50ch;
+    width: 100%;
+
+    margin-top: 3ch;
+    background: linear-gradient(to right, black, ) ;
+}
+.gallery_item{
+    height: 90%;
+    width: 25%;
+
+    background: #D99A27;
+    border: whitesmoke solid;
 }
 
 /* Animation Modifications */
+@keyframes alter{
+    from { background: #1b1813;}
+    to {background: #200909;}
+}
 
 /* Footer Modifications */

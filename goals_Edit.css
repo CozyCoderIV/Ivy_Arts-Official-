@@ -106,5 +106,9 @@ body{
 }
 
 /* Animation Modifications */
+@keyframes alter{
+    from { background: #2c271e;}
+    to {background: #200909;}
+}
 
 /* Footer Modifications */
