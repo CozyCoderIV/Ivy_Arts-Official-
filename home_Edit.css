@@ -327,13 +327,17 @@ footer{
     color: aliceblue;
 }
 a{
-    color: #f0ac2e;
+    color: aliceblue;
     transition: all 0.5s ease-in-out;
+    text-decoration: none;
 }
 a:hover{
     color: #fcbf4f;
 }
-
+.bottom_link{
+    color: aliceblue;
+    text-decoration: none;
+}
 .image-container{
     background: #D3833D;
     height: 100%;
