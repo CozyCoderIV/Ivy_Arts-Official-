@@ -1,0 +1,110 @@
+/* Head Modifications */
+.header-container{
+    display: flex;
+
+    /* background: peru; */
+    background: linear-gradient(to right, black, #CD6B54, #821273);
+    /* background: linear-gradient(to left,); */
+    border: 2px;
+    border-style: double;
+    border-color: white;
+    height: 3em;
+    margin-left: -10px;
+    margin-right: -10px;
+
+    padding-left: 1ch;
+}
+.header-container-item{
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 1px;
+
+    font-weight: 900;
+    font-size:x-large;
+    color: rgb(255, 232, 246);
+}
+.welcome-banner{
+    color: #D99A27;
+    background-color: rgb(43, 41, 41);
+    background: linear-gradient(to left,black, rgb(43, 41, 41), rgba(95, 38, 100, 0.562) );
+    font-family: 'Nanum Gothic', sans-serif;
+    border: solid;
+    border-color: #D3833D;
+    /* border-color: whitesmoke; */
+    border-width: 1px;
+
+    transition: all 0.5s ease-in;
+    /* box-shadow: 0 10px 20px rgb(46, 45, 45), 0 6px 6px rgba(228, 133, 10, 0.945); */
+}
+.welcome-banner:hover{
+    box-shadow: 0 10px 20px rgb(46, 45, 45), 0 6px 6px rgba(228, 133, 10, 0.945);
+    background: linear-gradient(to left,black, rgb(43, 41, 41), rgba(154, 14, 167, 0.795) );
+    color: #f7c15d;
+}
+p{
+    color: #D99A27;
+    transition: all 0.5s ease;
+}
+p:hover{
+    background: #ffffff11;
+    color: #f0ac2e;
+}
+.nav-container{
+    background: rgb(19, 18, 18);
+    display: flex;
+}
+.nav-container > * {
+    /* Grow / Shrink / Size */
+    flex: 1 1 100%; 
+
+    max-width: 40ch;
+}
+.nav-container > * + * {
+    margin-left: 3px;
+    justify-content: center;
+}
+.nav-div{
+    height: 35px;
+    width: 60ch;
+
+    display: flex;
+    background: peru;
+    background: linear-gradient(to bottom, #821273, #D99A27);
+
+    color: aliceblue;
+
+    transition:all 0.5s ease;
+}
+.nav-div > * {
+    margin-top: 2ch;
+
+    /* background: blueviolet; */
+    width: 10ch;
+    text-align: center;
+}
+.nav-div:hover{
+    /* #f32bd8 */
+    background: linear-gradient(to bottom, #f32bd8, #f0ac2e);
+    padding: 0px 30px;
+    
+}
+#home-tab{
+    justify-content: center;
+    transition: all 0.5s ease;
+
+    animation: enlarge 1s ease 2s infinite alternate;
+}
+.nav-div-item{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+}
+
+/* Body Content Modifications */
+body{
+    background: rgb(22, 21, 21);
+    /* background: linear-gradient(to top, black, #CD6B54, #C7536B, #BB2498); */
+}
+
+/* Animation Modifications */
+
+/* Footer Modifications */
