@@ -103,11 +103,16 @@ a{
     text-decoration: none;
 }
 
+/* Main Content Modifications */
+main{
+    background: linear-gradient(to top right, black, black, rgb(66, 15, 44), rgb(139, 22, 71));
+}
+
 /* Body Content Modifications */
 body{
     background: rgb(22, 21, 21);
     /* background: linear-gradient(to top, black, #CD6B54, #C7536B, #BB2498); */
-    animation: alter 3.0s linear 0s infinite;
+    /* animation: alter 3.0s linear 0s infinite; */
 }
 
 /* Animation Modifications */
